@@ -1,10 +1,12 @@
 import React from 'react';
 import { useGoogleMaps } from 'react-hook-google-maps';
 
+const { REACT_APP_MAP_KEY } = process.env;
+
 const companyPlace = { lat: 52.40632298398924, lng: 16.917750243450183 };
 const MapGoogleComponent = () => {
   const { ref, map, google } = useGoogleMaps(
-    'AIzaSyAFybTSGmBZJXGqcBjB0vBOKZXDuE9m9vk',
+    REACT_APP_MAP_KEY,
     {
       center: companyPlace,
       zoom: 15,
