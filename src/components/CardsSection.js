@@ -28,7 +28,7 @@ const cards = [
 ];
 
 const CardsSection = () => (
-  <StyledSection>
+  <StyledSection id="card">
     <Slider>
       <h3>Everybody can be a internet Influencer!</h3>
     </Slider>

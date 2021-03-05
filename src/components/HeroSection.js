@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spring, config } from 'react-spring/renderprops';
 import {
-  Button, HeroSection, HeroSlogan, Img,
+ HeroSection, HeroSlogan, Img,
 } from '../styled/styledHero';
 import img from '../img/agency.png';
 
@@ -27,8 +27,6 @@ const HeroComponent = () => (
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
             in reprehenderit in voluptate velit esse cillum.
           </p>
-          <Button reversed className="heroButton">Sign Up</Button>
-          <Button>Login</Button>
         </HeroSlogan>
       )}
     </Spring>

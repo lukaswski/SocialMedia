@@ -27,6 +27,13 @@ const GlobalStyle = createGlobalStyle`
     color: white;
   };
 
+  li {
+    cursor: pointer;
+    :hover{
+      color: whitesmoke;
+    }
+  }
+
   h1{
     color: #003333;
     font-weight: 900;

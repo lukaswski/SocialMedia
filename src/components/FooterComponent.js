@@ -9,7 +9,7 @@ import FormComponent from './FormComponent';
 import MapGoogleComponent from './mapComponent';
 
 const FooterComponent = () => (
-  <Footer>
+  <Footer id="footer">
     <TopText>
       <h3>Catch us on social</h3>
     </TopText>

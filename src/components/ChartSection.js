@@ -5,7 +5,7 @@ import {
 import ChartPage from '../ChartPage';
 
 const ChartSection = () => (
-  <StyledSection price>
+  <StyledSection price id="chart">
     <LeftPrice>
       <h3>What is the price?</h3>
     </LeftPrice>

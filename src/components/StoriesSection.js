@@ -22,7 +22,7 @@ const logos = [
 ];
 
 const StoriesSection = () => (
-  <Section>
+  <Section id="stories">
     <HeaderSection>
       <h3>Our buissnes partners:</h3>
     </HeaderSection>
