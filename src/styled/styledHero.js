@@ -79,3 +79,18 @@ export const Img = styled.img`
     width: 80%;
     };
 `;
+
+
+export const ScrollUpButton = styled(Button)`
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  z-index: 5;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 10px;
+  text-align: center;
+  @media(max-width: 950px){
+    bottom: 30px;
+  }
+`;

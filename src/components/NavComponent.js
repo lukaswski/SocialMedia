@@ -14,6 +14,7 @@ const NavComponent = () => {
   ];
   const [hidden, setHidden] = useState(true);
   const [openNavbar, setOpenNavbar] = useState(true);
+
   const BurgerOrNavbar = () => document.body.clientWidth < 870 && setHidden(false);
 
   useEffect(() => {
@@ -26,7 +27,7 @@ const NavComponent = () => {
       to={{ opacity: 1, transform: 'translate(0 ,0)' }}
     >
       {(props) => (
-        <Nav style={props}>
+        <Nav style={props} id="nav">
           <Logo>
             SocialNinja
           </Logo>
