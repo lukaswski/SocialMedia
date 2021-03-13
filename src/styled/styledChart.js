@@ -36,7 +36,7 @@ export const Modal = styled.div`
   text-align: center;
   left: 0;
   right: 0;
-  background-color: lavender;
+  background-color: white;
   margin: 10px auto;
   box-shadow: 5px 5px 15px gray;
   padding: 30px;
